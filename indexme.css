@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@ 500,700, 900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    
+}
+body{
+    font-family: "Red Hat Display",sans-serif; 
+    background-image:url(./order-summary-component-main/images/pattern-background-desktop.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 450px;
+    overflow: hidden;
+    
+}
+.title {
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-content p.subtitle{
+    color: #8a8a8a;
+    margin:20px;
+}
+.plan-box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2px ;
+    
+}
+.plan-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+plan-box-left div { 
+    margin-left: 20px; }
+
+.plan-box-left div h5 {
+    font-weight: 500;
+    font-size: 15px; 
+    color: hsl(223, 47%, 23%);
+    margin-top: 20px;
+}
+.plan-box-left div p {
+    font-size: 15px; 
+    color:#8a8a8a;
+    }
+
+.plan-box a{ 
+    font-weight: 500;
+    color: hsl(223, 47%, 23%);
+    }
+    
+.plan-box a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    }
+
+a.proceed-btn { 
+    display: block;
+    text-decoration: none;
+    color: white ;
+    background-color:hsl(245, 75%, 52%);
+    padding: 12px;
+    border-radius: 12px;
+    margin: 20px;
+    } 
+
+a.proceed-btn:hover{ 
+    background-color:  hsl(224, 23%, 55%);
+    }
+
+a.cancle-btn{ 
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+a.cancle-btn:hover {
+    color:hsl(223, 47%, 23%);
+}
+
+.plan-box-left div { 
+    margin: 10px; }
+
+.plan-box-left div h5 {
+    font-weight: 900;
+    font-size: 15px; 
+    color: hsl(223, 47%, 23%);
+}
+.plan-box-left div p {
+            font-size: 14px; 
+            color:#8a8a8a
+            ;}
+
+
+
+        
+
+
+
+
