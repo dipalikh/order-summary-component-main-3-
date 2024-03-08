@@ -25,6 +25,7 @@ body{
     border-radius: 10px;
     max-width: 450px;
     overflow: hidden;
+    margin: (20px 0px);
     
 }
 .title {
